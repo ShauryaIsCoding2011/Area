@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Area Calculator - <%= data.shape %></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculate Area of a <%= data.shape %></h1>
+
+    <% if (data.area) { %>
+        <p>The area of the <%= data.shape %> is: <%= data.area %></p>
+    <% } else { %>
+        <form action="/calculate/circle" method="post">
+            <h3>Radius:</h3> <input type="text" name="radius" required>
+            <button type="submit">Calculate Area</button>
+        </form>
+
+        <h3>Formula: <%= data.formula %></h3>
+        <img src="<%= data.imagePath %>" alt="<%= data.shape %>">
+    <% } %>
+</body>
+</html>
