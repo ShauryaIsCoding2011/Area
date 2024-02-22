@@ -7,43 +7,61 @@
     url("https://db.onlinewebfonts.com/t/dcbedadff6f97bfa4d87d02fe416409f.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/dcbedadff6f97bfa4d87d02fe416409f.svg#LEMON MILK Bold")format("svg");
 }
-
 body, h1, ul, li, form, p {
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    /* background-color: #f4f4f4; */
-    color: #333;
-    text-align: center;
-    font-size: 16px;
-    background-color: #ccc;
-}
+/* Add this style for h1 in style.css */
 
-h1 {
+.head{
     font-weight: 400;
     font-style: normal;
-    font-size: 26.9px;
+    font-size: 36px;
     margin-bottom: 20px;
     color: #333;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding: 5rem;
+    font-family: "LEMON MILK Bold";
+}
+.head1{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 1px;
     padding: 1rem;
     font-family: "LEMON MILK Bold";
 }
-
-h3{
-    font-weight: 400;
+/* 
+.mouse-memoirs-regular {
+    font-family: "Lemon/Milk",    sans-serif;
+    font-weight: 800;
     font-style: normal;
-    font-size: 23px;
-    margin-bottom: 15px;
+    font-size: 36px;
+    margin-bottom: 20px;
     color: #333;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 0.4rem;
-    font-family: "LEMON MILK Bold";
+    padding: 5rem;
+    
+  } */
+  
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .shape {
@@ -51,8 +69,8 @@ h3{
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
 }
 
 .shape-list {
@@ -71,8 +89,8 @@ h3{
     color: #333;
     display: block;
     text-align: center;
-    width: 200px;  /* Set width to 200px */
-    height: 200px; /* Set height to 200px */
+    width: 150px;  /* Set width to 200px */
+    height: 150px; /* Set height to 200px */
     border: 2px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
@@ -89,42 +107,4 @@ h3{
     transform: scale(1.1);
 }
 
-form {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-label {
-    margin-bottom: 5px;
-    color: #333;
-    font-size: 16px; /* Adjust the label font size */
-}
-
-input {
-    padding: 8px;
-    margin-bottom: 10px;
-    font-size: 14px; /* Adjust the input font size */
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    font-size: 16px; /* Adjust the button font size */
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-p {
-    font-size: 18px; /* Adjust the paragraph font size */
-}
-
-
+/* Add more styles as needed */
